@@ -7,6 +7,47 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
-/* Add styles here! */
+.max-width-wrapper{
+  max-width: 39rem;    
+  margin: 4rem auto 0;
+  padding: 16px;
+  background-color: hsl(0deg 0% 100%);
+}
+.intro-chunk {
+  margin-top: 2rem;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+  
+}
+header{
+  height: 30%;
+}
+h1 {
+  margin-bottom: 3.5rem;
+}
+p{
+  line-height: 1.4;
+}
+p > strong {
+  color: hsl(160deg, 100%, 30%);
+}
+main{
+  background-color: hsl(0deg 0% 60%);
+  height: 70%;
+  border-top: 8px solid hsl(0deg, 0%, 80%);
+}
+
+main .max-width-wrapper {
+  border-bottom: 8px solid hsl(0deg 0% 80%);
+}
+.indented-heading {
+  background-color: hsl(45deg 100% 50%);
+  width: fit-content;
+  padding: 16px 36px;
+  border-bottom: 5px solid hsl(45deg 100% 40%);
+  margin: -.5rem 0 1rem -2rem;
+}
+
